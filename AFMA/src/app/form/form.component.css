@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.form {
+  width: 700px;
+  text-transform: capitalize;
+}
+
+.form__wrap {
+  display: flex;
+  justify-items: initial;
+  margin-bottom: 20px;
+}
+
+.form__txt {
+  width: 200px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form__star {
+  color: #F00;
+  padding-left: 10px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column-reverse;
+  color: #777;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 16px;
+}
+
+.form__input {
+  height: 25px;
+  border: solid 1px #CCC;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.form__fieldset {
+  border: none;
+  width: 100%;
+  width: 500px;
+  margin-left: 10px; 
+}
+
+.input-area {
+  width: 75px;
+}
+
+.input-tel {
+  width: 150px;
+}
+
+.input-email {
+  width: 300px;
+}
+
+.input-zip-code {
+  width: 125px;
+  margin-right: 20px;
+}
+
+.form__select {
+  height: 25px;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.form__btn-del {
+  background-color: #FFF;
+  color: #F00;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  width: 25px;
+}
+
+.form__btn-add {
+  background-color: #FFF;
+  color: #F00;
+  border: none;
+}
+
+.form__wrap-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__btn {
+  background-color: #CCC;
+  border: 1px solid #555;
+  width: 100px;
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.invalid {
+  border: solid 1px #F00;
+}
+
+

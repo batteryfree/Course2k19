@@ -1,0 +1,61 @@
+.button {
+  background-color: #DDD;
+  border-left: 1px solid #BBB;
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #555;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  font-weight: 800;
+}
+
+.button:disabled {
+  background-color: #999;
+  border-left: 1px solid #555;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #BBB;
+  border-right: 1px solid #BBB;
+}
+
+.button:disabled[color-text^="1"] {
+  color: #005;
+}
+
+.button:disabled[color-text^="2"] {
+  color: #050;
+}
+
+.button:disabled[color-text^="3"] {
+  color: #500;
+}
+
+.button:disabled[color-text^="4"] {
+  color: #088;
+}
+
+.button:disabled[color-text^="5"] {
+  color: #550
+}
+
+.button:disabled[color-text^="6"] {
+  color: #808
+}
+
+.button:disabled[color-text^="7"] {
+  color: #0FA
+}
+
+.button:disabled[color-text^="8"] {
+  color: #F08
+}
+
+.button:disabled[color-text^="*"] {
+  color: #F00
+}
+
+.button[color-text^="M"] {
+  background-color: #900;
+  color: #FFF;
+}

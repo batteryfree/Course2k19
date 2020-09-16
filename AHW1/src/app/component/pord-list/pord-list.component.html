@@ -1,0 +1,13 @@
+<h2 class="product-headline">{{titleList}}</h2>
+<div class="product" *ngFor="let product of products">
+    <img class="product__img" src="{{product.img}}" alt="product.Title">
+    <button class="product__btn" (click)="setFavoriteList(product)">{{captionButton}}</button>
+    <div class="product__description">
+        <h2 class="product__title">{{product.Title}}</h2>
+        <p class="product__txt">{{product.Description}}</p>
+        <div class="product__wrap">
+            <a class="product__link" href="{{product.Url}}">Go to product page</a>
+            <p class="product__rating">{{product.Rating}}</p>
+        </div>
+    </div>
+</div>

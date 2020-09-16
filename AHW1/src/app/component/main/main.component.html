@@ -1,0 +1,20 @@
+<div class="main">
+  <div class="main__wrap">
+      <input class="main__input" [(ngModel)]="inputSearch" (input)="search()" placeholder="Search">
+      <button class="main__btn"
+          (click)="sortRating()"
+      >Sort rating {{isSortDescending?"min to max":"max to min"}}</button>
+  </div>
+  <pord-list *ngIf="favoritProducts.length" 
+      [products] = favoritProducts
+      (setFavorite)="removeFavorite($event)"
+      [captionButton] = "'Remove from favorites'"
+      [titleList]="'Favorite product list'"
+  ></pord-list>
+  <pord-list 
+      [products] = filtredProduct
+      (setFavorite)="addFavorite($event)"
+      [captionButton] = "'Add to favorites'"
+      [titleList]="'Product list'"
+  ></pord-list>
+</div>

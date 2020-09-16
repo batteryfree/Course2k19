@@ -1,0 +1,25 @@
+.setings {
+  padding-bottom: 25px;
+}
+
+.slider {
+  width: 300px;
+}
+
+.button-reset {
+  background-color: #DDD;
+  border-left: 1px solid #BBB;
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #555;
+  font-size: 20px;
+}
+
+.button-reset:active {
+  background-color: #CCC;
+  border-left: 1px solid #555;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #BBB;
+  border-right: 1px solid #BBB;
+  font-size: 20px;
+}
